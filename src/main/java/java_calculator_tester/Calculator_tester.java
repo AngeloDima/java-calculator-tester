@@ -16,9 +16,9 @@ public class Calculator_tester {
 		int Opera = s.nextInt();
 		
 		System.out.print("Ok, dimmi il primo numero (INTERO): ");
-		int num1 = s.nextInt();
+		float num1 = s.nextInt();
 		System.out.print("ora dimmi il secondo numero (INTERO): ");
-		int num2 = s.nextInt();
+		float num2 = s.nextInt();
 		
 		
 		

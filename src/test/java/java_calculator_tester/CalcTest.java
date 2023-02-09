@@ -10,28 +10,28 @@ class CalcTest {
 	 @Test
 	    public void testAdd() {
 		 Calc calcolatore = new Calc();
-		 int result = calcolatore.add(1, 2);
+		 float result = calcolatore.add(1, 2);
 	        assertEquals(3, result, 0);
 	    }
 
 	    @Test
 	    public void testSubtract() {
 	    	Calc calcolatore = new Calc();
-	    	int result = calcolatore.subtract(5, 3);
+	    	float result = calcolatore.subtract(5, 3);
 	        assertEquals(2, result, 0);
 	    }
 
 	    @Test
 	    public void testDivide() {
 	    	Calc calcolatore = new Calc();
-	    	int result = calcolatore.divide(6, 2);
+	    	float result = calcolatore.divide(6, 2);
 	        assertEquals(3, result, 0);
 	    }
 
 	    @Test
 	    public void testMultiply() {
 	    	Calc calcolatore = new Calc();
-	    	int result = calcolatore.multiply(2, 3);
+	    	float result = calcolatore.multiply(2, 3);
 	        assertEquals(6, result, 0);
 	    }
 
