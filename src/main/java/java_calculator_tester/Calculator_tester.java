@@ -15,10 +15,10 @@ public class Calculator_tester {
 		System.out.println("Quale operazione vuoi eseguire? [1]Addizione  [2]Sottrazione [3]Moltiplicazione [4]Divisione");
 		int Opera = s.nextInt();
 		
-		System.out.print("Ok, dimmi il primo numero (INTERO): ");
-		float num1 = s.nextInt();
-		System.out.print("ora dimmi il secondo numero (INTERO): ");
-		float num2 = s.nextInt();
+		System.out.print("Ok, dimmi il primo numero: ");
+		float num1 = s.nextFloat();
+		System.out.print("ora dimmi il secondo numero: ");
+		float num2 = s.nextFloat();
 		
 		
 		
